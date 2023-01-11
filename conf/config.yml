@@ -96,6 +96,15 @@ profiles:
     name: Clear_Linux_Desktop
     custom_git_arguments: --depth=1
 
+  - git_remote_url: https://github.com/zhoujd/rni-profile-base-ubuntu.git
+    profile_branch: slim
+    profile_base_branch: master
+    git_username: ""
+    git_token: ""
+    # This is the name that will be shown on the PXE menu (NOTE: No Spaces)
+    name: Ubuntu_22.04
+    custom_git_arguments: --depth=1
+
   - git_remote_url: https://github.com/intel/rni-profile-base-ubuntu.git
     profile_branch: slim
     profile_base_branch: master
